@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<title>Index.html</title>
+		<meta name="description" content="" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="style.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+
+	</head>
+	<body class="newVideo">
+		<header>
+			<h1>My Tube</h1>
+			<nav>
+				<a href="index.html" class="homepage">Home</a>
+				<a href="pages/collection1.html" class="collection1">Collection 1</a>
+				<a href="pages/collection2.html" class="collection2">Collection 2</a>
+				<a href="pages/collection3.html" class="collection3">Collection 3</a>
+				<a href="newvideo.html" class="newvideo">New Video</a>
+			</nav>
+		</header>
+		<br />
+		<hr />
+
+		<form>
+			<label for="title">Video Title </label>
+			<input placeholder="Enter title here" id="title" name="title" type="text" maxlength="25" required /><br /><br />
+
+			<br /><br />
+
+			<label for="description">Description</label><br />
+			<textarea name="description" rows="8" placeholder="Enter the video description here."> </textarea>
+
+			<label for="license">Upload your video.</label><br />
+			<a
+				href="https://www.google.com/search?q=drivers+license+examples&rlz=1C5CHFA_enUS986US986&sxsrf=AJOqlzVaJeH6v5QvYfrisso5bq3mwN6dFQ:1673984872784&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjyis7Nr8_8AhUyGTQIHdUUAYoQ_AUoAXoECAEQAw&biw=723&bih=683&dpr=2">
+				Examples</a
+			><br />
+			<input id="license" name="license" type="file" />
+
+			<br /><br />
+
+			<label for="collection">Choose collection</label><br />
+			<select id="collection" name="collection">
+				<option>Choose</option>
+				<option value="">Collection1</option>
+				<option value="">Collection2</option>
+				<option value="">Collection3</option>
+			</select>
+
+			<br /><br />
+
+			<input id="public" name="option" type="radio" />
+			<label for="public">Public</label><br />
+			<input id="private" name="option" type="radio" />
+			<label for="private">Private</label>
+
+			<br /><br />
+
+			<input id="submit" name="submit" type="submit" />
+			<label for="submit"></label><br />
+		</form>
+
+		<script src="" async defer></script>
+	</body>
+</html>

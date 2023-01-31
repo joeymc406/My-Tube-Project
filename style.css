@@ -1,0 +1,50 @@
+nav {
+    margin-top: 35px;
+}
+
+body {
+    background-color: #333333;
+}
+
+footer {
+    color: azure;
+}
+
+h1 {
+    color: azure;
+}
+
+h2 {
+    color: azure;
+}
+
+.collections {
+    background-color: #333333;
+}
+ 
+.homepage, .collection1, .collection2, .collection3, .newvideo, 
+.c-homepage, .c-collection1, .c-collection2, .c-collection3, .c-newvideo
+{
+    background-color: #333333;
+    color: #ff4f00;
+    padding: 15px;
+    text-decoration: none;
+    margin: 20px;
+    padding-top: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px #ff4f00;
+    
+}
+
+.index-table {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+table {
+    margin-left: auto;
+        margin-right: auto;
+}
+
+
